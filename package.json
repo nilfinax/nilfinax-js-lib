@@ -1,5 +1,5 @@
 {
-  "name": "amaterupus",
+  "name": "nilfinax",
   "version": "1.0.0",
   "description": "Minha biblioteca de JavaScript.",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/amaterupus/amaterupus-js-lib.git"
+    "url": "git+ssh://git@github.com/nilfinax/nilfinax-js-lib.git"
   },
-  "author": "Amaterupus",
+  "author": "Nilfinax",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amaterupus/amaterupus-js-lib/issues"
+    "url": "https://github.com/nilfinax/nilfinax-js-lib/issues"
   },
-  "homepage": "https://github.com/amaterupus/amaterupus-js-lib#readme",
+  "homepage": "https://github.com/nilfinax/nilfinax-js-lib#readme",
   "keywords": []
 }

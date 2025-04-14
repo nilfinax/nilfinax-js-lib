@@ -1,4 +1,4 @@
-Biblioteca de JavaScript do Amaterupus.
+Biblioteca de JavaScript do Nilfinax.
 
 Use 'functionName.help()' para detalhes sobre ela.
 
