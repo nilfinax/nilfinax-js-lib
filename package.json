@@ -1,14 +1,38 @@
 {
   "name": "nilfinax",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Minha biblioteca de JavaScript.",
-  "main": "index.js",
+  "main": "dist/nilfinax.cjs.js",
+  "module": "dist/nilfinax.esm.mjs",
+  "unpkg": "dist/nilfinax.umd.min.js",
+  "jsdelivr": "dist/nilfinax.umd.min.js",
+  "types": "dist/nilfinax.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "CHANGELOG.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "node -e \"const fs=require('fs'); fs.rmSync('dist',{recursive:true,force:true}); fs.mkdirSync('dist',{recursive:true});\"",
+    "generate": "node scripts/generate-nilfinax.js",
+    "generate:types": "node scripts/generate-types.js",
+    "prebuild": "npm run clean && npm run generate && npm run generate:types",
+    "build": "cross-env NODE_ENV=production rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build",
+    "test": "node ./test-cjs.cjs && node ./test-esm.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/nilfinax.d.ts",
+      "import": "./dist/nilfinax.esm.mjs",
+      "require": "./dist/nilfinax.cjs.js"
+    }
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/nilfinax/nilfinax-js-lib.git"
+    "url": "git+https://github.com/nilfinax/nilfinax-js-lib.git"
   },
   "author": "Nilfinax",
   "license": "ISC",
@@ -16,5 +40,23 @@
     "url": "https://github.com/nilfinax/nilfinax-js-lib/issues"
   },
   "homepage": "https://github.com/nilfinax/nilfinax-js-lib#readme",
-  "keywords": []
+  "keywords": [
+    "javascript",
+    "utility",
+    "helpers",
+    "validation",
+    "type-checking",
+    "nilfinax"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-replace": "^6.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "cross-env": "^10.1.0",
+    "rollup": "^4.54.0"
+  }
 }

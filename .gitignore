@@ -1,3 +1,8 @@
+# Nilfinax
+test-local-cjs.cjs
+test-local-esm.mjs
+test-local-umd.html
+
 # Logs
 logs
 *.log
@@ -86,6 +91,7 @@ web_modules/
 # Next.js build output
 .next
 out
+docs
 
 # Nuxt.js build / generate output
 .nuxt
