@@ -15,8 +15,8 @@ ${declaration}
 - 2º parâmetro: Opcional. Boolean. Indica se os segundos passados estão no formato do Date "Math.trunc(Date.now() / 1000)".
 - 3º parâmetro: Opcional. Boolean. Indica se deve ser usado o UTC local.
 - Retorno: Object.
-Até "04/10/1582 23:59:59", usa calendário "Juliano" e a partir de "15/10/1582 00:00:00", usa calendário "Gregoriano";
-Há um salto de 10 dias da data "04/10/1582 23:59:59" para a data "15/10/1582 00:00:00", usado como padronização da mudança de calendário.
+Até 04/10/1582 23:59:59, usa calendário Juliano e a partir de 15/10/1582 00:00:00, usa calendário Gregoriano;
+Há um salto de 10 dias da data 04/10/1582 23:59:59 para a data 15/10/1582 00:00:00, usado como padronização da mudança de calendário.
 
 Exemplo de uso:
 secondsToDate(0);
@@ -70,8 +70,8 @@ function funFormatYearMinFourDigits(intYear) {
  * @property {string} minute Número de minutos.
  * @property {string} second Número de segundos.
  * @property {string} calendarsUsed Calendários usados.
- * Até "04/10/1582 23:59:59", usa calendário "Juliano" e a partir de "15/10/1582 00:00:00", usa calendário "Gregoriano";
- * Há um salto de 10 dias da data "04/10/1582 23:59:59" para a data "15/10/1582 00:00:00", usado como padronização da mudança de calendário.
+ * Até 04/10/1582 23:59:59, usa calendário Juliano e a partir de 15/10/1582 00:00:00, usa calendário Gregoriano;
+ * Há um salto de 10 dias da data 04/10/1582 23:59:59 para a data 15/10/1582 00:00:00, usado como padronização da mudança de calendário.
  *
  * @example
  * secondsToDate(0);

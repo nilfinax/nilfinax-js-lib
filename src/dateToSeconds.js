@@ -19,8 +19,8 @@ A chave "hour" representa a hora;
 A chave "minute" representa o minuto;
 A chave "second" representa o segundo.
 - Retorno: Integer.
-Até "04/10/1582 23:59:59", usa calendário "Juliano" e a partir de "15/10/1582 00:00:00", usa calendário "Gregoriano";
-Há um salto de 10 dias da data "04/10/1582 23:59:59" para a data "15/10/1582 00:00:00", usado como padronização da mudança de calendário.
+Até 04/10/1582 23:59:59, usa calendário Juliano e a partir de 15/10/1582 00:00:00, usa calendário Gregoriano;
+Há um salto de 10 dias da data 04/10/1582 23:59:59 para a data 15/10/1582 00:00:00, usado como padronização da mudança de calendário.
 
 Exemplo de uso:
 dateToSeconds({ year: "0001", month: "01", day: "02", hour: "00", minute: "00", second: "00" });
@@ -51,8 +51,8 @@ const objEmptyDateAndTime = Object.freeze({});
  * @param {string|number} [objDateAndTime.minute] - O minuto.
  * @param {string|number} [objDateAndTime.second] - O segundo.
  * @returns {number} Integer.
- * Até "04/10/1582 23:59:59", usa calendário "Juliano" e a partir de "15/10/1582 00:00:00", usa calendário "Gregoriano";
- * Há um salto de 10 dias da data "04/10/1582 23:59:59" para a data "15/10/1582 00:00:00", usado como padronização da mudança de calendário.
+ * Até 04/10/1582 23:59:59, usa calendário Juliano e a partir de 15/10/1582 00:00:00, usa calendário Gregoriano;
+ * Há um salto de 10 dias da data 04/10/1582 23:59:59 para a data 15/10/1582 00:00:00, usado como padronização da mudança de calendário.
  *
  * @example
  * dateToSeconds({ year: "0001", month: "01", day: "02", hour: "00", minute: "00", second: "00" });
