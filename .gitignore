@@ -1,4 +1,5 @@
 # Nilfinax
+.vscrof
 test-local-cjs.cjs
 test-local-esm.mjs
 test-local-umd.html
