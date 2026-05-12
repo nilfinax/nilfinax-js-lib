@@ -60,7 +60,7 @@ function funReduceNumerology(intSum) {
 /**
  * Função que calcula a numerologia dos parâmetros passados.
  *
- * @param {...(string)} arrStrings Obrigatório e demais opcionais. String. Indicam os textos a ser calculada a numerologia.
+ * @param {string[]} arrStrings Obrigatório e demais opcionais. String. Indicam os textos a ser calculada a numerologia.
  * @return {Array} Array.
  *
  * @example

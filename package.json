@@ -1,6 +1,6 @@
 {
   "name": "nilfinax",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Biblioteca de JavaScript do @Nilfinax com funções utilitárias, validações de tipos e funções auxiliares para desenvolvimento.",
   "main": "dist/nilfinax.cjs.js",
   "module": "dist/nilfinax.esm.mjs",

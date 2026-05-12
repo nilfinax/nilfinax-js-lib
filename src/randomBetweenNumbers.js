@@ -32,8 +32,8 @@ Exemplo de retorno:
  *
  * @param {Array} arrIntervals Obrigatório. Array. Indica os intervalos do número randômico.
  * @param {randomBetweenNumbersReturnIntegerOrFloat} [strReturnIntegerOrFloat] Opcional. String. Indica se o número randômico deve ser um integer ou float e deve seguir algum desses padrões:
- * "int" para um integer;
- * "flo" para um float.
+ * - "int" para um integer;
+ * - "flo" para um float.
  * @returns {number} Number.
  *
  * @example

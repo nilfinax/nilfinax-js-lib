@@ -70,8 +70,8 @@ function funFormatYearMinFourDigits(intYear) {
  * @property {string} minute Número de minutos.
  * @property {string} second Número de segundos.
  * @property {string} calendarsUsed Calendários usados.
- * Até 04/10/1582 23:59:59, usa calendário Juliano e a partir de 15/10/1582 00:00:00, usa calendário Gregoriano;
- * Há um salto de 10 dias da data 04/10/1582 23:59:59 para a data 15/10/1582 00:00:00, usado como padronização da mudança de calendário.
+ * - Até 04/10/1582 23:59:59, usa calendário Juliano e a partir de 15/10/1582 00:00:00, usa calendário Gregoriano;
+ * - Há um salto de 10 dias da data 04/10/1582 23:59:59 para a data 15/10/1582 00:00:00, usado como padronização da mudança de calendário.
  *
  * @example
  * secondsToDate(0);

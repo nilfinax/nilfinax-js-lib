@@ -12,17 +12,17 @@ const help = `${description}
 ${declaration}
 
 - 1º parâmetro: Opcional. String. Indica o tipo de caractere e deve seguir algum desses padrões:
-"0" para caractere aleatório podendo ser número, letra ou símbolo;
-"1" para caractere aleatório podendo ser apenas número;
-"2" para caractere aleatório podendo ser apenas letra;
-"3" para caractere aleatório podendo ser apenas símbolo;
-"4" para caractere aleatório podendo ser número ou letra;
-"5" para caractere aleatório podendo ser número ou símbolo;
-"6" para caractere aleatório podendo ser letra ou símbolo.
+"0" para número, letra ou símbolo;
+"1" para apenas número;
+"2" para apenas letra;
+"3" para apenas símbolo;
+"4" para número ou letra;
+"5" para número ou símbolo;
+"6" para letra ou símbolo.
 - 2º parâmetro: Opcional. String. Indica o tipo de letra e deve seguir algum desses padrões:
-"0" para letra aleatória podendo ser minúscula ou maiúscula;
-"1" para letra aleatória podendo ser minúscula;
-"2" para letra aleatória podendo ser maiúscula.
+"0" para letra minúscula ou maiúscula;
+"1" para letra minúscula;
+"2" para letra maiúscula.
 - Retorno: String.
 
 Exemplo de uso:
@@ -89,17 +89,17 @@ const arrSourceByCharacterType = [
  * Função que escolhe aleatoriamente um caractere, podendo ser um número, uma letra ou um símbolo.
  *
  * @param {randomCharacterCharacterType} [strCharacterType='0'] Opcional. String. Indica o tipo de caractere e deve seguir algum desses padrões:
- * "0" para caractere aleatório podendo ser número, letra ou símbolo;
- * "1" para caractere aleatório podendo ser apenas número;
- * "2" para caractere aleatório podendo ser apenas letra;
- * "3" para caractere aleatório podendo ser apenas símbolo;
- * "4" para caractere aleatório podendo ser número ou letra;
- * "5" para caractere aleatório podendo ser número ou símbolo;
- * "6" para caractere aleatório podendo ser letra ou símbolo.
+ * - "0" para número, letra ou símbolo;
+ * - "1" para apenas número;
+ * - "2" para apenas letra;
+ * - "3" para apenas símbolo;
+ * - "4" para número ou letra;
+ * - "5" para número ou símbolo;
+ * - "6" para letra ou símbolo.
  * @param {randomCharacterLetterType} [strLetterType='0'] Opcional. String. Indica o tipo de letra e deve seguir algum desses padrões:
- * "0" para letra aleatória podendo ser minúscula ou maiúscula;
- * "1" para letra aleatória podendo ser minúscula;
- * "2" para letra aleatória podendo ser maiúscula.
+ * - "0" para letra minúscula ou maiúscula;
+ * - "1" para letra minúscula;
+ * - "2" para letra maiúscula.
  * @returns {string} String.
  *
  * @example

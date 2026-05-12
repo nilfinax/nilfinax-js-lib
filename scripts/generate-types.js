@@ -139,7 +139,7 @@ function funExtractJSDoc(strFilePath) {
 const insSetGeneratedTypes = new Set();
 
 // Gera as definições de tipo
-let strTypeDefinitions = `// Type definitions for nilfinax 2.0.0
+let strTypeDefinitions = `// Type definitions for nilfinax
 // Project: https://github.com/nilfinax/nilfinax-js-lib
 // Definitions by: Nilfinax
 // TypeScript Version: 3.0

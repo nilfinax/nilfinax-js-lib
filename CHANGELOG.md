@@ -7,7 +7,17 @@ Este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR/)
 
 ---
 
-## [2.0.0] - 2026-03-16
+## [2.0.1] - 2026-05-12
+
+### 🔧 Corrigido (PATCH)
+
+- **`calculateNumerology`**: Correção do JSDoc.
+- **`randomBetweenNumbers`**: Correção do JSDoc.
+- **`randomCharacter`**: Correção do JSDoc.
+- **`ruleOfThree`**: Correção do JSDoc.
+- **`secondsToDate`**: Correção do JSDoc.
+
+## [2.0.0] - 2026-04-29
 
 ### ⚠️ Alterações incompatíveis (MAJOR)
 

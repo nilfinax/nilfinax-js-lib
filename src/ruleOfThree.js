@@ -38,8 +38,8 @@ Exemplo de retorno:
  * @param {number} [numFirstQuantity2] Opcional. Number. Indica o segundo número da primeira grandeza.
  * @param {number} [numSecondQuantity2] Opcional. Number. Indica o segundo número da segunda grandeza.
  * @param {ruleOfThreeProportionality} [strProportionality] Opcional. String. Indica se a regra de três vai ser diretamente ou inversamente proporcional e deve seguir algum desses padrões:
- * "dir" para diretamente proporcional;
- * "inv" para inversamente proporcional.
+ * - "dir" para diretamente proporcional;
+ * - "inv" para inversamente proporcional.
  * @returns {number} Number.
  *
  * @example
